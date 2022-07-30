@@ -8,8 +8,9 @@ module.exports = {
   },
   extends: ["eslint:recommended", "plugin:react/recommended"],
   globals: {},
-  parser: "@babel/eslint-parser",
+  parser: "@typescript-eslint/parser",
   parserOptions: {
+    requireConfigFile: false,
     ecmaFeatures: {
       jsx: true,
     },

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Theme } from 'react-daisyui';
 import ReactDOM from 'react-dom/client';
+import './i18n'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -10,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Theme dataTheme="wireframe">
+    <Theme dataTheme="pastel">
       <App />
     </Theme>
   </React.StrictMode>
